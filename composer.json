@@ -1,5 +1,5 @@
 {
-    "name": "snapshotpl/zf-snap-php-debug-bar",
+    "name": "graef685/zf-snap-php-debug-bar",
     "description": "PHP Debug Bar module for Zend Framework 2",
     "keywords": [
         "debugbar",
@@ -16,6 +16,11 @@
             "name": "Witold Wasiczko",
             "email": "witold@wasiczko.pl",
             "homepage": "http://www.psd2html.pl/"
+        },
+        {
+            "name": "Patrick Gräf",
+            "email": "graef685@googlemail.com",
+            "homepage": "https://github.com/graef685"
         }
     ],
     "require": {
