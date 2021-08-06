@@ -1,6 +1,6 @@
 <?php
 
-use ZfSnapPhpDebugBar\Module;
+use DebugBar\StandardDebugBar;
 
 if (!function_exists('debugbar_log')) {
     /**
@@ -9,6 +9,8 @@ if (!function_exists('debugbar_log')) {
      */
     function debugbar_log($message, $type = 'debug')
     {
-        Module::log($message, $type);
+        $standardDebugbar = StandardDebugBar::get_instance();
+
+        $standardDebugbar["messages"]->addMessage($message, $type);
     }
 }
