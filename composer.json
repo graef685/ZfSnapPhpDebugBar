@@ -24,8 +24,8 @@
         }
     ],
     "require": {
-        "php": "^5.6 || ^7.0 || ^8.0",
-        "graef685/debugbar": "dev-master",
+        "php": "^5.6 || ^7.0 || ^8",
+        "graef685/debugbar": "^2",
         "zendframework/zend-mvc": "^2.4 || ^3.0",
         "zendframework/zend-log": "^2.4",
         "zendframework/zend-servicemanager": "^2.6 || ^3.0",
